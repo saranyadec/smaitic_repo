@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'ap-south-1'
-        ECR_REPO = '850451907464.dkr.ecr.ap-south-1.amazonaws.com/demo:v1'
+        ECR_REPO = '850451907464.dkr.ecr.ap-south-1.amazonaws.com/demo'
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
